@@ -14,9 +14,6 @@ def prefix(prefix, array):
     for i in xrange(len(array)):
         if array[i][0:len(pre)] != pre:
             newarray.append(array[i])
-    """for i in xrange(len(r.json()["array"])):
-        if r.json()["array"][i][0:4] != r.json()["prefix"]:
-            newarray.append(str(r.json()["array"][i]))"""
     return newarray
 
 result = prefix(pre,arr)
